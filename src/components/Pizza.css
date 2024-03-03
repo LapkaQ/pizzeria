@@ -1,0 +1,102 @@
+.pizza {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+.pizzaPlus {
+  transition-duration: 0.2s;
+  background-color: #ad88c6;
+}
+.pizzaCancel {
+  transition-duration: 0.2s;
+  background-color: #ff505090;
+}
+.pizzaText {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pizza .icon {
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 100px;
+  transition-duration: 0.5s;
+}
+.pizza .plus {
+  transform: rotateZ(-90deg);
+  background-color: hsla(0, 100%, 95%, 0.5);
+}
+.pizza .cancel {
+  transform: rotateZ(45deg);
+  background-color: hsla(0, 100%, 50%, 0.5);
+}
+.pizza .icon:hover {
+  cursor: pointer;
+}
+
+.cartButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cartButton {
+  border-radius: 10px;
+  border: none !important;
+  margin: 10px;
+}
+.cart {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #ad88c6;
+}
+.cartText {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart .icon {
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 100px;
+  transition-duration: 0.5s;
+}
+.cart .icon:hover {
+  cursor: pointer;
+}
+.cartPage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.cartPizzas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,38 @@
+header {
+  background-color: #ad88c6;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 0px 10px 2px #7469b6;
+}
+header ul {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavLinkClass {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  margin: 10px;
+  transition-duration: 0.2s;
+}
+.NavLinkClass:hover {
+  cursor: pointer;
+  color: #ffe6e6;
+}
+header ul li a.active {
+  color: #7469b6;
+  /* border-radius: 30px; */
+  /* box-shadow: 0px 0px 10px 5px #7469b6; */
+  border-bottom: 5px solid #ffffff;
+}
