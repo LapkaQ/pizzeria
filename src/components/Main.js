@@ -8,7 +8,7 @@ const Main = ({ menuPizzas, cartPizzas, menuClick, cartClick, setPrice }) => {
     <main>
       <div className="mainContent">
         <Routes>
-          <Route path="/" element={<div>Pizzeria!</div>} />
+          <Route path="/" element={<div>Witamy! Pizzeria!</div>} />
           <Route
             path="/cart"
             element={
